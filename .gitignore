@@ -5,3 +5,4 @@
 tools
 .php-cs-fixer.cache
 phpunit.xml
+.phpunit.result.cache
