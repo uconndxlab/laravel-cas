@@ -13,7 +13,7 @@ class LogFactory
         $logType = config('cas.cas_log');
 
         // Use the active Laravel logger given by the facade
-        if (strtolower($logType) === 'laravel') {
+        if (strtolower($logType ?? '') === 'laravel') {
             return \Log::getLogger();
         }
 
