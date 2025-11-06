@@ -11,7 +11,7 @@
   "require": {
     "php": ">=8.2.0",
     "illuminate/support": "^11.0|^12.0",
-    "apereo/phpcas": "^1.6",
+    "apereo/phpcas": "dev-master",
     "monolog/monolog": "^3.0"
   },
   "require-dev": {
